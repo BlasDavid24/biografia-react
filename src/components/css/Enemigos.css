@@ -1,0 +1,67 @@
+.cuadroGeneral1 {
+    width: 200px;
+    height: 200px;
+    padding: 20px; /* Espacio interno del cuadro */
+    font-size: 18px;
+    margin-bottom: 80px;
+    margin-left: 100px;
+    
+  }
+
+.cuadroGeneral2 {
+    width: 200px;
+    height: 200px;
+    padding: 20px; /* Espacio interno del cuadro */
+    font-size: 18px;
+    margin-bottom: 80px;
+    margin-left: 400px;
+    margin-top: -320px;
+    
+}
+
+.cuadroGeneral3 {
+    width: 200px;
+    height: 200px;
+    padding: 20px; /* Espacio interno del cuadro */
+    font-size: 18px;
+    margin-bottom: 80px;
+    margin-left: 650px;
+    margin-top: -320px;
+    
+}
+
+.cuadroGeneral4 {
+    width: 200px;
+    height: 200px;
+    padding: 20px; /* Espacio interno del cuadro */
+    font-size: 18px;
+    margin-bottom: 80px;
+    margin-left: 900px;
+    margin-top: -320px;
+    
+}
+
+.lienzo {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    transform: perspective(700px) rotateX(30deg) rotateY(20deg);
+    transition: transform 0.2s ease-in-out; /* Animación suave */
+}
+.lienzo:hover {
+    transform: perspective(800px) rotateX(0) rotateY(0);
+  }
+  
+
+.textito {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.borde {
+    border: 5px solid rgb(1, 39, 1); /* Borde del cuadro */
+}
+
+.moverse {
+    padding-left: 40px;
+    padding-bottom: 30px;
+}

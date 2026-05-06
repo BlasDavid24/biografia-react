@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLv8sNfNatlGF29BMMXBi7NbexJEIOTs57FAU3BmsK0YBMl0YPBFODK2DoAdu1xWz8BdI&usqp=CAU);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.texto {
+  color: rgb(184, 182, 182);
+  font-size: 70px;
+  text-shadow: 5px 10px 14px rgb(0, 0, 0);
+}
